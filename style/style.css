@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: "TT Lakes";
+    src: url("TTLakes-Medium.eot");
+    src: local("TT Lakes Medium"), local("TTLakes-Medium"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.eot") format("embedded-opentype"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.woff") format("woff"),
+      url("../src/fonts/TTLakes/TTLakes-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  body {
+    font-family: "TT Lakes";
+  }
+  .element {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ff3e79;
+  }
+  .nav-main__logo-info__logo {
+    width: 97px;
+  }
+  .element__icon {
+    margin: 0 auto;
+  }
+  .nav-main__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 15%;
+  }
+  .nav-main__logo-info {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-main__information {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .basic {
+    background-color: #f8f8f8;
+    margin: 0;
+  }
+  .basic__header-block {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 5%;
+  }
+  .basic__header-block__line {
+    margin-right: 5%;
+    float: left;
+  }
+  .basic__header-block__header {
+    font-size: 28px;
+    color: #1b1c21;
+  }
+  .basic__navigation {
+    padding-bottom: 5px;
+  }
+  .basic__navigation__container {
+    display: flex;
+    margin-left: 5%;
+  }
+  .basic__navigation__container > a {
+    white-space: nowrap;
+    padding: 5px 10px;
+    color: #7e7e82;
+    text-decoration: none;
+  }
+  .status__active {
+    border: 2px solid #b8ffec;
+    border-radius: 5px;
+  }
+  .basic__text {
+    margin: 20px 5%;
+    padding-bottom: 35px;
+  }
+  .basic__text__text-container {
+    font-size: 14px;
+    color: #1b1c21;
+    margin-bottom: 5px;
+  }
+  .basic__text__link-further {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .basic__text__link-read {
+    color: #1b1c21;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
