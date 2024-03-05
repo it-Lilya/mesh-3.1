@@ -5,8 +5,8 @@
     align-items: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 18.5px;
+    margin-bottom: 18.5px;
   }
   .nav-main__menu > img {
     display: none;
@@ -16,15 +16,14 @@
     margin: 0;
   }
   .nav-main__logo-info {
-    width: 20%;
-    margin-left: 5%;
+    width: 30%;
   }
   .icon-burger {
     width: 40%;
     height: 16px;
   }
   .nav-main__information {
-    min-width: 37%;
+    width: 36.8%;
     margin: 0;
   }
   .icon-setting {
@@ -41,32 +40,46 @@
     font-weight: 800;
     margin-left: -10px;
   }
+  .basic__header-block__line {
+    margin-right: 4.5%;
+  }
   .basic__header-block__container {
     display: none;
   }
   .basic__navigation {
-    overflow-x: hidden;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    overflow-y: hidden;
+  }
+  .basic__navigation__container::-webkit-scrollbar {
+    display: none;
   }
   .basic__navigation__container {
     display: flex;
     flex-wrap: nowrap;
-    overflow-y: auto;
+    -ms-overflow-style: none;
     white-space: nowrap;
-    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    overflow: scroll;
   }
   .basic__navigation__container > a {
     scroll-snap-align: start;
   }
-  .basic__text__image {
-    margin-left: -5%;
-    width: 100vw;
-  }
   .basic__text__text-container {
-    max-height: 120px;
     outline: none;
     overflow: hidden;
-    margin-right: 5%;
+    margin-right: 3.1%;
+    margin-left: 3.1%;
     flex-shrink: 1;
+  }
+  .basic__text__link-further {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .basic__text__image {
+    background-image: url('../src/images/Picture\ Copy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 176px;
   }
   

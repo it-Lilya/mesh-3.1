@@ -1,12 +1,21 @@
 .nav-main {
   display: none;
 }
+.basic__header-block {
+  justify-content: space-between;
+  padding-right: 3.1%;
+}
 .basic__header-block__container {
-  min-width: 25%;
+  min-width: 35%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: auto;
+  padding-right: 10px;
+}
+.container__elements {
+  display: flex;
+  align-items: center;
 }
 .container__element {
   display: flex;
@@ -16,28 +25,36 @@
 .container__text {
   color: #1b1c21;
   margin-left: auto;
-  margin-right: 3%;
+  margin-right: 2%;
   white-space: nowrap;
 }
+
 .basic__navigation__container {
   display: flex;
-  margin-left: 5%;
   flex-wrap: wrap;
 }
 .basic__text {
-  column-count: 2;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(42%, 1fr));
+}
+.basic__navigation {
+  margin-left: 3.1%;
+}
+.basic__header-block__line {
+  margin-right: 3.1%;
 }
 .basic__text__text-container {
-  max-height: 180px;
-  outline: none;
-  overflow: hidden;
-  margin-right: 2%;
+  width: 98%;
 }
 .basic__text__link-further {
   order: 1;
+  margin-top: 10px;
 }
 .basic__text__image {
-  width: 100%;
   border-radius: 15px;
-  height: 307px;
+  background-image: url('../src/images/_MG_3223.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-row: span 2;
 }
