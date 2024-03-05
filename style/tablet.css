@@ -47,22 +47,19 @@
   scroll-snap-align: start;
 }
 .basic__text {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(42%, 1fr));
-  align-items: stretch;
+  display: flex;
+  justify-content: space-between;
 }
 .basic__header-block__line {
   margin-right: 3.1%;
 }
 .basic__text__text-container {
-  width: 86%;
+  width: 43.2%;
 }
 .basic__text__link-further {
-  order: 1;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .basic__text__image {
-  width: 100%;
+  width: 49.9%;
   border-radius: 15px;
-  grid-row: span 2; 
 }
