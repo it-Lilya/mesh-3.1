@@ -75,11 +75,11 @@
     margin-bottom: 15px;
   }
   .basic__text__image {
-    background-image: url('../src/images/Picture\ Copy.png');
+    /* background-image: url('../src/images/Picture\ Copy.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     width: 100vw;
-    height: 176px;
+    height: 176px; 
   }
   

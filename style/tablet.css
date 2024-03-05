@@ -62,10 +62,7 @@
   margin-top: 10px;
 }
 .basic__text__image {
-  background-image: url('../src/images/MG_3223.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  width: 100%;
   border-radius: 15px;
-  grid-row: span 2;
+  grid-row: span 2; 
 }
