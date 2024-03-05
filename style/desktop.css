@@ -16,8 +16,7 @@
 .container__text {
   color: #1b1c21;
   margin-left: auto;
-  margin-right: 5%;
-
+  margin-right: 3%;
   white-space: nowrap;
 }
 .basic__navigation__container {
@@ -26,12 +25,9 @@
   flex-wrap: wrap;
 }
 .basic__text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  column-count: 2;
 }
 .basic__text__text-container {
-  width: 44%;
   max-height: 180px;
   outline: none;
   overflow: hidden;
@@ -39,10 +35,9 @@
 }
 .basic__text__link-further {
   order: 1;
-  margin-top: -20vh;
 }
 .basic__text__image {
-  width: 50%;
+  width: 100%;
   border-radius: 15px;
   height: 307px;
 }

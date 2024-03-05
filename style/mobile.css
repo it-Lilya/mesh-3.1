@@ -24,7 +24,7 @@
     height: 16px;
   }
   .nav-main__information {
-    width: 40%;
+    min-width: 37%;
     margin: 0;
   }
   .icon-setting {

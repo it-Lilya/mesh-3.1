@@ -18,8 +18,8 @@
   .element {
     border: none;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     background-color: #ff3e79;
   }
   .nav-main__logo-info__logo {
