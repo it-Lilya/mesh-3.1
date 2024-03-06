@@ -18,6 +18,8 @@
 .nav-main__logo-info {
   width: 72%;
   flex-shrink: 2;
+  margin-right: 2vw;
+  margin-left: 2vw;
 } 
 .nav-main__additional-info {
   display: flex;
@@ -26,9 +28,6 @@
 }
 .nav-main__additional-info__element:nth-child(n + 2) {
   margin-left: 2vw;
-}
-.nav-main__additional-info__element:last-child {
-  /* margin-right: 2vw; */
 }
 .nav-main__information > button {
   margin-left: 2vw;
