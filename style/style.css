@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   @font-face {
     font-family: "TT Lakes";
@@ -23,7 +24,12 @@
     background-color: #ff3e79;
   }
   .nav-main__logo-info__logo {
-    width: 97px;
+    max-width: 90px; 
+    width: 1vmin;
+    margin: 0;
+    height: auto;
+    flex-grow: 2;
+    flex-shrink: 2;
   }
   .element__icon {
     margin: 0 auto;
@@ -44,7 +50,6 @@
   }
   .basic {
     background-color: #f8f8f8;
-    margin: 0;
     height: 100vh;
   }
   .basic__header-block {
