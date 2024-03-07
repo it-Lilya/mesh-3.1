@@ -13,7 +13,7 @@
   justify-content: space-between;
 }
 .nav-main__menu > button {
-  margin-right: 2.1vw;
+  margin-right: 20px;
 }
 .nav-main__logo-info {
   margin-right: auto;
@@ -22,19 +22,23 @@
   width: 100%;
 } 
 .nav-main__logo-info__logo {
-  margin-left: 2.1vw;
+  margin-left: 20px;
 }
 .nav-main__additional-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 2.1vw;
+  margin-right: 20px;
 }
+
 .nav-main__additional-info__element:nth-child(n + 2) {
-  margin-left: 2.1vw;
+  margin-left: 16px;
 }
-.nav-main__information > button {
-  margin-left: 2.1vw;
+.nav-main__information > img  {
+  margin-right: 20px;
+}
+.nav-main__information > button:last-child {
+  margin-left: 16px;
 }
 .basic {
   border-top: 1px solid #D9FFF5;
@@ -44,14 +48,17 @@
   margin-right: 3.1%;
   margin-left: 3.1%;
 }
+
 .basic__header-block__header::before {
   content: '';
   display: block;
   position: absolute;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
   width: 2px;
   height: 40px;
   background-color: #41F6D7;
-  left: 0;
+  left: 0
 }
 .basic__navigation {
   margin-top: 30px;

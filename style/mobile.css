@@ -22,9 +22,11 @@
 .nav-main__information {
   margin: 0;
 }
-
-.nav-main__information > button {
-  margin-left: 5vw;
+.nav-main__information > img  {
+  margin-right: 20px;
+}
+.nav-main__information > button:last-child{
+  margin-left: 16px;
 }
 .icon-setting {
   width: 20px;
@@ -36,7 +38,7 @@
 }
 .nav-main__logo-info {
   margin-right: auto;
-  margin-left: 5vw;
+  margin-left: 20px;
 }
 .basic {
   border-top: 1px solid #D9FFF5;
@@ -50,6 +52,8 @@
   content: '';
   display: block;
   position: absolute;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
   width: 2px;
   height: 40px;
   background-color: #41F6D7;

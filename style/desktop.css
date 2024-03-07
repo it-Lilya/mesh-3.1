@@ -13,6 +13,8 @@
   content: '';
   display: block;
   position: absolute;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
   width: 2px;
   height: 40px;
   background-color: #41F6D7;
@@ -29,7 +31,7 @@
   align-items: center;
 }
 .container__elements:last-child {
-  margin-left: 2.8vw;
+  margin-left: 35px;
 }
 .container__element {
   display: flex;
