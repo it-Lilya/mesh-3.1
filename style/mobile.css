@@ -23,8 +23,10 @@
   height: 16px;
 }
 .nav-main__information {
-  width: 36.8%;
   margin: 0;
+}
+.nav-main__information > button {
+  margin-left: 2vw;
 }
 .icon-setting {
   width: 20px;
@@ -34,11 +36,9 @@
   width: 18px;
   height: 20px;
 }
-.nav-main__-logo {
-  color: #6b7b84;
-  font-size: 30px;
-  font-weight: 800;
-  margin-left: -10px;
+.nav-main__logo-info {
+  margin-right: auto;
+  margin-left: 2vw;
 }
 .basic__header-block__line {
   margin-right: 4.5%;
@@ -48,6 +48,7 @@
 }
 .basic__navigation {
   overflow-y: hidden;
+  margin-left: 5%;
 }
 .basic__navigation__container::-webkit-scrollbar {
   display: none;
@@ -63,11 +64,12 @@
 .basic__navigation__container > a {
   scroll-snap-align: start;
 }
+
 .basic__text__text-container {
   outline: none;
   overflow: hidden;
-  margin-right: 3.1%;
-  margin-left: 3.1%;
+  margin-right: 5%;
+  margin-left: 5%;
   flex-shrink: 1;
 }
 .basic__text__link-further {
@@ -76,5 +78,6 @@
 }
 .basic__text__image {
   width: 100vw;
-  height: 176px; 
+  height: auto; 
+  margin: 0;
 }
