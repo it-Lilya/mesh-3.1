@@ -25,11 +25,10 @@
   }
   .nav-main__logo-info__logo {
     max-width: 90px; 
-    width: 1vmin;
-    margin: 0;
-    height: auto;
-    flex-grow: 2;
+    width: 10%;
     flex-shrink: 2;
+    flex-grow: 2;
+    height: auto;
   }
   .element__icon {
     margin: 0 auto;
@@ -54,8 +53,6 @@
   }
   .basic__header-block {
     display: flex;
-    padding-top: 3%;
-    padding-bottom: 3%;
   }
   .basic__header-block__line {
     float: left;
@@ -72,13 +69,14 @@
   }
   .basic__navigation__container > a {
     white-space: nowrap;
-    padding: 7px 14px;
     color: #7e7e82;
     text-decoration: none;
+  
   }
   .status__active {
     border: 2px solid #b8ffec;
     border-radius: 5px;
+    background-color: white;
   }
   .basic__text {
     margin-top: 20px;
