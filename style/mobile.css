@@ -41,15 +41,27 @@
 .basic {
   border-top: 1px solid #D9FFF5;
 }
+.basic__header-block {
+  padding-top: 24px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.basic__header-block__header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background-color: #41F6D7;
+  left: 0;
+}
 .basic__navigation {
   margin-top: 24px;
 }
 .basic__navigation__container > a {
   padding: 8px 13px;
 }
-.basic__header-block {
-  padding-top: 24px;
-}
+
 .basic__header-block__line {
   margin-right: 4.5%;
 }

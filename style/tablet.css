@@ -41,6 +41,17 @@
 }
 .basic__header-block {
   padding-top: 24px;
+  margin-right: 3.1%;
+  margin-left: 3.1%;
+}
+.basic__header-block__header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background-color: #41F6D7;
+  left: 0;
 }
 .basic__navigation {
   margin-top: 30px;
@@ -54,7 +65,7 @@
 }
 
 .basic__navigation {
-  margin-left: 3.2%;
+  margin-left: 3.1%;
 }
 .basic__navigation__container::-webkit-scrollbar {
   display: none;

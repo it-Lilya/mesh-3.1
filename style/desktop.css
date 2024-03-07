@@ -6,7 +6,17 @@
 }
 .basic__header-block {
   justify-content: space-between;
-  padding-right: 3.1%;
+  margin-right: 3.1%;
+  margin-left: 3.1%;
+}
+.basic__header-block__header::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 40px;
+  background-color: #41F6D7;
+  left: 0;
 }
 .basic__header-block__container {
   display: flex;
