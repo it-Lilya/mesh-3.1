@@ -67,6 +67,14 @@
   padding: 0;
   padding: 7px 13px;
 }
+.status__1 {
+  display: none;
+}
+.points__status:nth-child(2) {
+  border: 2px solid #b8ffec;
+  border-radius: 5px;
+  background-color: white;
+}
 .basic__header-block__container {
   display: none;
 }

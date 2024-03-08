@@ -71,12 +71,6 @@
     white-space: nowrap;
     color: #7e7e82;
     text-decoration: none;
-  
-  }
-  .status__active {
-    border: 2px solid #b8ffec;
-    border-radius: 5px;
-    background-color: white;
   }
   .basic__text {
     margin-top: 20px;
