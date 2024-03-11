@@ -79,7 +79,10 @@
   .basic__text__text-container {
     font-size: 14px;
     color: #1b1c21;
+   
   }
+
+  
   .basic__text__link-further {
     display: flex;
     align-items: center;

@@ -85,6 +85,7 @@
 .basic__navigation__container::-webkit-scrollbar {
   display: none;
 }
+
 .basic__navigation__container {
   -ms-overflow-style: none;
   display: flex;
@@ -109,9 +110,11 @@
 .basic__text__link-further {
   margin-top: 15px;
 }
+
 .basic__text__image {
+  object-fit: contain;
   width: 50%;
-  height: auto;
-  margin-left: 6.2%;
+  height: 100%;
+  margin-left: 6.5%;
   border-radius: 15px;
 }
